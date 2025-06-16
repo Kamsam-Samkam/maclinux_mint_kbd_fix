@@ -1,0 +1,10 @@
+Unit]
+Description=Caps Lock Layout Fixer
+After=graphical.target
+
+[Service]
+ExecStart=/home/jn/capslock_autofix.py
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
